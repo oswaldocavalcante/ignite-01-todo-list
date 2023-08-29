@@ -12,8 +12,6 @@ type Task = {
   completed: boolean
 }
 
-
-
 export default function App() {
   
   const [taskText, setTaskText] = useState('');
